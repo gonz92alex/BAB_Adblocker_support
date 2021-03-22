@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "block_adblocker_block",
+    "action": {},
+    "version": "0.1",
+    "description": "Cuando el Adblocker es detectado, algunas paginas muestran un mensaje pidiendo que lo desactives, esta extension, desactiva el mensaje.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
